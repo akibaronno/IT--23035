@@ -16,16 +16,16 @@ public class CGCalculate {
         for(int i = 1; i <= course_num; i++){
             System.out.println("Course " + i + ":");
 
-            System.out.print("  Credit (Max 3): ");
+            System.out.print("Credit (Max 3): ");
             int credits = input.nextInt();
 
-            System.out.print("  CT (Max 30): ");
+            System.out.print("Class Test (Max 30): ");
             int classTest = input.nextInt();
 
-            System.out.print("  AT (Max 10): ");
+            System.out.print("Attendance (Max 10): ");
             int attendance = input.nextInt();
 
-            System.out.print("  FE (Max 60): ");
+            System.out.print("Final Exam (Max 60): ");
             int exam = input.nextInt();
 
             int total_score = classTest + attendance + exam;
